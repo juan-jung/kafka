@@ -10,10 +10,10 @@ import java.time.Duration;
 import java.util.Arrays;
 import java.util.Properties;
 
-public class SimpleConsumer {
+public class ConsumerWithAutoCommit {
     private static String TOPIC_NAME = "test";
     private static String GROUP_ID = "testgroup";
-    private static String BOOTSTRAP_SERVERS = ":9092";
+    private static String BOOTSTRAP_SERVERS = "13.208.247.137:9092";
 
     public static void main(String[] args) {
         Properties configs = new Properties();
@@ -21,9 +21,10 @@ public class SimpleConsumer {
         configs.put(ConsumerConfig.GROUP_ID_CONFIG, GROUP_ID);
         configs.put(ConsumerConfig.KEY_DESERIALIZER_CLASS_CONFIG, StringDeserializer.class.getName());
         configs.put(ConsumerConfig.VALUE_DESERIALIZER_CLASS_CONFIG, StringDeserializer.class.getName());
+        configs.put(ConsumerConfig.ENABLE_AUTO_COMMIT_CONFIG, true);
+        configs.put(ConsumerConfig.AUTO_COMMIT_INTERVAL_MS_CONFIG, 60000);
 
         KafkaConsumer<String, String> consumer = new KafkaConsumer<>(configs);
-
         consumer.subscribe(Arrays.asList(TOPIC_NAME));
 
         while (true) {
