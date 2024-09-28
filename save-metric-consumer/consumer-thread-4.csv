@@ -1,0 +1,58 @@
+mem,host=ip-172-31-47-29 high_free=0i,active=253337600i,available=634613760i,vmalloc_total=35184372087808i,total=1003941888i,huge_pages_free=0i,huge_pages_total=0i,cached=624873472i,available_percent=63.21220058506016,slab=119791616i,sunreclaim=50348032i,vmalloc_used=8695808i,write_back=0i,used=185896960i,low_total=0i,shared=929792i,swap_cached=0i,swap_free=0i,vmalloc_chunk=0i,free=175325184i,committed_as=584654848i,low_free=0i,mapped=199864320i,swap_total=0i,write_back_tmp=0i,buffered=17846272i,dirty=0i,huge_page_size=2097152i,page_tables=3416064i,used_percent=18.51670522188631,high_total=0i,inactive=394629120i,sreclaimable=69443584i,commit_limit=501968896i 1727522990000000000
+
+cpu,cpu=cpu0,host=ip-172-31-47-29 usage_softirq=0,usage_steal=3.478260869569382,usage_guest=0,usage_guest_nice=0,usage_user=0,usage_system=0,usage_nice=0,usage_iowait=0,usage_idle=96.52173913042623,usage_irq=0 1727523000000000000
+
+cpu,cpu=cpu0,host=ip-172-31-47-29 usage_irq=0,usage_guest=0,usage_guest_nice=0,usage_user=0.09689922480604783,usage_nice=0,usage_iowait=0.0968992248061167,usage_steal=3.197674418601782,usage_system=0.0968992248061167,usage_idle=96.51162790697346,usage_softirq=0 1727523010000000000
+
+cpu,cpu=cpu0,host=ip-172-31-47-29 usage_idle=98.2300884956436,usage_irq=0,usage_softirq=0,usage_steal=1.7699115044279443,usage_user=0,usage_system=0,usage_nice=0,usage_iowait=0,usage_guest=0,usage_guest_nice=0 1727523020000000000
+
+cpu,cpu=cpu-total,host=ip-172-31-47-29 usage_nice=0,usage_guest_nice=0,usage_user=0,usage_system=0,usage_idle=98.2300884956436,usage_iowait=0,usage_irq=0,usage_softirq=0,usage_steal=1.7699115044279443,usage_guest=0 1727523020000000000
+
+mem,host=ip-172-31-47-29 used=186130432i,high_total=0i,huge_pages_total=0i,slab=119791616i,sreclaimable=69443584i,sunreclaim=50348032i,vmalloc_used=8695808i,available=634372096i,used_percent=18.539960751194396,committed_as=584654848i,free=175067136i,high_free=0i,huge_page_size=2097152i,vmalloc_total=35184372087808i,cached=624873472i,commit_limit=501968896i,huge_pages_free=0i,swap_cached=0i,swap_total=0i,write_back=0i,available_percent=63.18812907226758,active=253337600i,low_total=0i,mapped=199864320i,write_back_tmp=0i,total=1003941888i,low_free=0i,inactive=394645504i,page_tables=3416064i,shared=929792i,swap_free=0i,vmalloc_chunk=0i,buffered=17870848i,dirty=45056i 1727523040000000000
+
+cpu,cpu=cpu-total,host=ip-172-31-47-29 usage_user=0,usage_softirq=0,usage_iowait=0,usage_irq=0,usage_steal=0.10000000000232831,usage_guest=0,usage_guest_nice=0,usage_system=0,usage_idle=99.90000000005224,usage_nice=0 1727523070000000000
+
+cpu,cpu=cpu0,host=ip-172-31-47-29 usage_nice=0,usage_irq=0,usage_steal=2.0568070519089585,usage_guest=0,usage_user=0,usage_system=0.0979431929480092,usage_idle=97.84524975513197,usage_iowait=0,usage_softirq=0,usage_guest_nice=0 1727523080000000000
+
+cpu,cpu=cpu-total,host=ip-172-31-47-29 usage_guest=0,usage_guest_nice=0,usage_user=0,usage_system=0,usage_softirq=0,usage_irq=0,usage_steal=2.8210116731517165,usage_idle=97.17898832676866,usage_nice=0,usage_iowait=0 1727523090000000000
+
+mem,host=ip-172-31-47-29 swap_free=0i,write_back_tmp=0i,write_back=0i,available_percent=63.18894505575207,low_total=0i,mapped=199864320i,vmalloc_chunk=0i,used_percent=18.539960751194396,active=253337600i,cached=624873472i,low_free=0i,shared=929792i,slab=119791616i,swap_cached=0i,vmalloc_used=8695808i,commit_limit=501968896i,high_free=0i,huge_pages_free=0i,sunreclaim=50348032i,total=1003941888i,high_total=0i,page_tables=3416064i,free=175067136i,inactive=394653696i,available=634380288i,used=186130432i,dirty=0i,committed_as=584654848i,huge_pages_total=0i,vmalloc_total=35184372087808i,buffered=17870848i,huge_page_size=2097152i,sreclaimable=69443584i,swap_total=0i 1727523100000000000
+
+cpu,cpu=cpu0,host=ip-172-31-47-29 usage_idle=95.2335557673999,usage_iowait=0,usage_steal=4.766444232600098,usage_guest=0,usage_guest_nice=0,usage_user=0,usage_system=0,usage_nice=0,usage_irq=0,usage_softirq=0 1727523110000000000
+
+cpu,cpu=cpu-total,host=ip-172-31-47-29 usage_user=0,usage_nice=0,usage_irq=0,usage_steal=4.766444232600098,usage_guest_nice=0,usage_system=0,usage_idle=95.2335557673999,usage_iowait=0,usage_softirq=0,usage_guest=0 1727523110000000000
+
+cpu,cpu=cpu0,host=ip-172-31-47-29 usage_idle=98.91089108910377,usage_iowait=0,usage_steal=1.0891089108917222,usage_guest=0,usage_user=0,usage_system=0,usage_nice=0,usage_irq=0,usage_softirq=0,usage_guest_nice=0 1727523140000000000
+
+cpu,cpu=cpu-total,host=ip-172-31-47-29 usage_user=0,usage_nice=0,usage_irq=0,usage_softirq=0,usage_guest=0,usage_system=0,usage_idle=97.2736124634983,usage_iowait=0,usage_steal=2.7263875365105577,usage_guest_nice=0 1727523160000000000
+
+cpu,cpu=cpu-total,host=ip-172-31-47-29 usage_nice=0,usage_guest=0,usage_softirq=0,usage_steal=0.09999999999763531,usage_guest_nice=0,usage_user=0,usage_system=0,usage_idle=99.90000000005239,usage_iowait=0,usage_irq=0 1727523180000000000
+
+mem,host=ip-172-31-47-29 swap_total=0i,vmalloc_used=8695808i,buffered=17870848i,free=175067136i,sreclaimable=69443584i,mapped=199864320i,slab=119791616i,sunreclaim=50348032i,swap_cached=0i,swap_free=0i,available_percent=63.18894505575207,huge_page_size=2097152i,huge_pages_total=0i,write_back_tmp=0i,available=634380288i,low_free=0i,cached=624873472i,low_total=0i,shared=929792i,high_total=0i,huge_pages_free=0i,committed_as=584654848i,dirty=0i,high_free=0i,total=1003941888i,used=186130432i,used_percent=18.539960751194396,vmalloc_total=35184372087808i,write_back=0i,active=253337600i,commit_limit=501968896i,inactive=394653696i,page_tables=3416064i,vmalloc_chunk=0i 1727523190000000000
+
+cpu,cpu=cpu0,host=ip-172-31-47-29 usage_iowait=0,usage_irq=0,usage_softirq=0,usage_steal=5.660377358494371,usage_guest=0,usage_user=0.09433962264163541,usage_system=0,usage_idle=94.24528301885769,usage_nice=0,usage_guest_nice=0 1727523190000000000
+
+cpu,cpu=cpu-total,host=ip-172-31-47-29 usage_system=0,usage_idle=94.24528301885769,usage_iowait=0,usage_irq=0,usage_steal=5.660377358494371,usage_guest_nice=0,usage_user=0.09433962264163541,usage_nice=0,usage_softirq=0,usage_guest=0 1727523190000000000
+
+mem,host=ip-172-31-47-29 commit_limit=501968896i,huge_pages_total=0i,sunreclaim=50348032i,inactive=394653696i,low_total=0i,swap_cached=0i,available=634380288i,available_percent=63.18894505575207,free=175067136i,vmalloc_chunk=0i,vmalloc_total=35184372087808i,vmalloc_used=8695808i,used_percent=18.539960751194396,low_free=0i,page_tables=3416064i,shared=929792i,cached=624873472i,committed_as=584654848i,used=186130432i,active=253337600i,buffered=17870848i,dirty=0i,high_free=0i,huge_pages_free=0i,huge_page_size=2097152i,sreclaimable=69443584i,total=1003941888i,swap_free=0i,swap_total=0i,write_back=0i,high_total=0i,mapped=199864320i,slab=119791616i,write_back_tmp=0i 1727523220000000000
+
+mem,host=ip-172-31-47-29 huge_pages_free=0i,huge_pages_total=0i,swap_free=0i,write_back_tmp=0i,write_back=0i,buffered=17870848i,dirty=0i,shared=929792i,used=186130432i,used_percent=18.539960751194396,available_percent=63.18894505575207,active=253337600i,huge_page_size=2097152i,low_total=0i,total=1003941888i,available=634380288i,vmalloc_chunk=0i,slab=119791616i,sreclaimable=69443584i,swap_cached=0i,inactive=394653696i,low_free=0i,mapped=199864320i,page_tables=3416064i,cached=624873472i,commit_limit=501968896i,high_total=0i,vmalloc_used=8695808i,high_free=0i,vmalloc_total=35184372087808i,sunreclaim=50348032i,swap_total=0i,committed_as=584654848i,free=175067136i 1727523240000000000
+
+cpu,cpu=cpu0,host=ip-172-31-47-29 usage_iowait=0,usage_softirq=0,usage_steal=5.21821631878327,usage_system=0,usage_nice=0,usage_irq=0,usage_guest=0,usage_guest_nice=0,usage_user=0,usage_idle=94.78178368119084 1727523240000000000
+
+cpu,cpu=cpu-total,host=ip-172-31-47-29 usage_guest=0,usage_guest_nice=0,usage_user=0,usage_system=0,usage_idle=95.14285714290703,usage_iowait=0,usage_irq=0,usage_nice=0,usage_softirq=0,usage_steal=4.857142857140605 1727523270000000000
+
+cpu,cpu=cpu-total,host=ip-172-31-47-29 usage_nice=0,usage_steal=1.380670611440647,usage_idle=98.5207100592268,usage_iowait=0,usage_irq=0,usage_softirq=0,usage_guest=0,usage_guest_nice=0,usage_user=0.09861932938861766,usage_system=0 1727523280000000000
+
+cpu,cpu=cpu0,host=ip-172-31-47-29 usage_softirq=0,usage_guest=0,usage_user=0.09523809523814396,usage_system=0,usage_idle=94.95238095239203,usage_steal=4.95238095238511,usage_guest_nice=0,usage_nice=0,usage_iowait=0,usage_irq=0 1727523290000000000
+
+mem,host=ip-172-31-47-29 swap_cached=0i,swap_free=0i,buffered=17887232i,low_free=0i,page_tables=3416064i,swap_total=0i,committed_as=584654848i,high_free=0i,huge_pages_free=0i,mapped=199868416i,shared=929792i,vmalloc_total=35184372087808i,available_percent=63.19057702272106,commit_limit=501968896i,huge_page_size=2097152i,slab=119791616i,vmalloc_chunk=0i,vmalloc_used=8695808i,write_back_tmp=0i,total=1003941888i,used=186114048i,active=253337600i,free=175067136i,used_percent=18.538328784225406,dirty=0i,high_total=0i,low_total=0i,sunreclaim=50348032i,write_back=0i,available=634396672i,cached=624873472i,huge_pages_total=0i,inactive=394670080i,sreclaimable=69443584i 1727523330000000000
+
+mem,host=ip-172-31-47-29 cached=624873472i,huge_page_size=2097152i,vmalloc_total=35184372087808i,write_back=0i,shared=929792i,available=634396672i,high_total=0i,huge_pages_free=0i,huge_pages_total=0i,page_tables=3416064i,buffered=17887232i,low_total=0i,sunreclaim=50348032i,swap_total=0i,used_percent=18.538328784225406,active=253337600i,sreclaimable=69443584i,swap_cached=0i,vmalloc_used=8695808i,total=1003941888i,dirty=0i,mapped=199868416i,vmalloc_chunk=0i,high_free=0i,inactive=394670080i,swap_free=0i,used=186114048i,free=175067136i,slab=119791616i,write_back_tmp=0i,available_percent=63.19057702272106,commit_limit=501968896i,committed_as=584654848i,low_free=0i 1727523340000000000
+
+cpu,cpu=cpu-total,host=ip-172-31-47-29 usage_guest=0,usage_system=0,usage_softirq=0,usage_steal=2.441406249998751,usage_iowait=0,usage_irq=0,usage_guest_nice=0,usage_user=0,usage_idle=97.55859375000125,usage_nice=0 1727523340000000000
+
+cpu,cpu=cpu-total,host=ip-172-31-47-29 usage_idle=99.70059880240652,usage_irq=0,usage_steal=0.19960079840322079,usage_user=0.09980039920175222,usage_nice=0,usage_iowait=0,usage_softirq=0,usage_guest=0,usage_guest_nice=0,usage_system=0 1727523380000000000
+
+mem,host=ip-172-31-47-29 high_total=0i,slab=119791616i,swap_total=0i,used_percent=18.538328784225406,buffered=17887232i,huge_pages_free=0i,vmalloc_total=35184372087808i,write_back=0i,available_percent=63.19057702272106,free=175067136i,vmalloc_used=8695808i,available=634396672i,vmalloc_chunk=0i,low_total=0i,sunreclaim=50348032i,write_back_tmp=0i,active=253337600i,dirty=0i,huge_page_size=2097152i,low_free=0i,used=186114048i,committed_as=584654848i,huge_pages_total=0i,shared=929792i,sreclaimable=69443584i,swap_free=0i,total=1003941888i,high_free=0i,mapped=199868416i,page_tables=3416064i,cached=624873472i,commit_limit=501968896i,inactive=394670080i,swap_cached=0i 1727523400000000000
+
